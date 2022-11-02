@@ -1,0 +1,51 @@
+
+/* General */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff
+}
+
+section {
+  padding: 100px 0;
+}
+
+.nav-list {
+  flex-direction: row;
+}
+
+.desktop-nav {
+  display: block;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+.navbar-mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+@media (max-width:768px) {
+  .desktop-nav {
+    display: none;
+  }
+  .mobile-nav {
+    display: block;
+    background-color: #ffff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+}
