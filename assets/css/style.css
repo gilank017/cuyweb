@@ -40,11 +40,15 @@ section {
 }
 
 .card-event {
-  transition: all 0.5s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  border-radius: 15px;
 }
 
+.card-event .card-header {
+  border-radius: 15px;
+}
 .card-event:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 .pricing .box:hover {
   transform: scale(1.1);
