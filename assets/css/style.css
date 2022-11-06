@@ -1,20 +1,53 @@
-
 /* General */
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff
+  background-color: #fff;
 }
 
 section {
   padding: 100px 0;
 }
 
+/* section pricing1 -ozilpr */
+.section-header {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.section-header p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #012970;
+}
+
+.poster-event {
+  position: relative;
+  width: 100%;
+  border-radius: 15px;
+  height: 22rem;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.card-event:hover {
+  transform: scale(1.1);
+  transition: all 0.5s ease-in-out;
+}
+.pricing .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+/*  */
 .nav-list {
   flex-direction: row;
 }
@@ -36,7 +69,7 @@ section {
   list-style: none;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .desktop-nav {
     display: none;
   }
