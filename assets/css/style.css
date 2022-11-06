@@ -14,7 +14,9 @@ section {
   padding: 100px 0;
 }
 
-/* section pricing1 -ozilpr */
+/* --------------------------------
+section pricing1 -ozilpr
+-------------------------------- */
 .section-header {
   text-align: center;
   padding-bottom: 40px;
@@ -39,6 +41,9 @@ section {
   background-repeat: no-repeat;
 }
 
+.card-content {
+  text-align: center;
+}
 .card-event {
   transition: all 0.4s ease-in-out;
   border-radius: 15px;
@@ -55,7 +60,9 @@ section {
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
 }
 
-/* section valurs -ozilpr */
+/* --------------------------------
+section valurs -ozilpr
+-------------------------------- */
 .values .box {
   padding: 10px;
   box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
@@ -85,7 +92,25 @@ section {
   transform: scale(1);
 }
 
-/*  */
+/* --------------------------------
+section pricing2 -ozilpr
+-------------------------------- */
+.pricing .box {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.pricing .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
 .nav-list {
   flex-direction: row;
 }
