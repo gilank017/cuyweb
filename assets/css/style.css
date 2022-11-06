@@ -31,11 +31,29 @@ section pricing1 -ozilpr
   color: #012970;
 }
 
-.poster-event {
-  position: relative;
+.card-list {
   width: 100%;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-fit {
+  padding: 15px;
+  object-fit: fill;
+  width: 30%;
+  margin: 0 auto;
+  min-width: 333px;
+  box-sizing: unset;
+}
+
+.poster-event {
+  width: 100%;
+  min-height: 333px;
+  position: relative;
   border-radius: 15px;
-  height: 22rem;
   background-size: cover;
   background-position: 50% center;
   background-repeat: no-repeat;
@@ -43,10 +61,12 @@ section pricing1 -ozilpr
 
 .card-content {
   text-align: center;
+  cursor: default;
 }
 .card-event {
   transition: all 0.4s ease-in-out;
   border-radius: 15px;
+  width: 100%;
 }
 
 .card-event .card-header {
