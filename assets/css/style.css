@@ -35,18 +35,52 @@ section {
   border-radius: 15px;
   height: 22rem;
   background-size: cover;
-  background-position: 50%;
+  background-position: 50% center;
   background-repeat: no-repeat;
+}
+
+.card-event {
+  transition: all 0.5s ease-in-out;
 }
 
 .card-event:hover {
   transform: scale(1.1);
-  transition: all 0.5s ease-in-out;
 }
 .pricing .box:hover {
   transform: scale(1.1);
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
 }
+
+/* section valurs -ozilpr */
+.values .box {
+  padding: 10px;
+  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  text-align: center;
+  transition: 0.3s;
+  height: 100%;
+}
+
+.values .box img {
+  padding: 30px 50px;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.values .box h5 {
+  font-size: 16px;
+  color: #012970;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.values .box:hover {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.values .box:hover img {
+  transform: scale(1);
+}
+
 /*  */
 .nav-list {
   flex-direction: row;
