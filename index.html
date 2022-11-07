@@ -1,129 +1,318 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Cuy University</title>
+    <meta content="" name="description" />
 
-  <title>Cuy University</title>
-  <meta content="" name="description">
+    <meta content="" name="keywords" />
 
-  <meta content="" name="keywords">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
-  <link href="assets/css/assets.css" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet">
-
-</head>
-<body>
-  <nav class="navbar navbar-light bg-light fixed-top">
-    <a class="navbar-brand" href="#">CUY UNIVERSITY</a>
-    <div class="desktop-nav">
-      <ul class="navbar-nav nav-list">
-        <li class="nav-item m-2">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item m-2">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item m-2">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-      </ul>
-    </div>
-    <div class="mobile-nav">
-      <ul class="navbar-mobile">
-        <li class="nav-item m-2">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item m-2">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item m-2">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <section class="bg-primary">
-    <div class="container">
-      <h1 class="text-center">Ini  Header Bro</h1>
-    </div>
-  </section>
-  <section class="bg-secondary">
-    <div class="container">
-      <h1 class="text-center">Ini Intro Bro broo</h1>
-    </div>
-  </section>
-  <section class="bg-warning">
-    <div class="container">
-      <h1 class="text-center">Ini content bro</h1>
-    </div>
-  </section>
-  <section class="bg-danger">
-    <div class="container">
-      <h1 class="text-center">Ini Fitur</h1>
-    </div>
-  </section>
-  <section class="bg-info">
-    <div class="container">
-      <h1 class="text-center">Ini Dokumentasi</h1>
-    </div>
-  </section>
-  <section class="bg-dark">
-    <div class="container">
-      <h1 class="text-center">Ini Footer</h1>
-    </div>
-  </section>
-  <section class="page-section bg-primary" id="about">
-    <div class="container px-4 px-lg-5">
-        <div class="row gx-4 gx-lg-5 justify-content-center">
-            <div class="col-lg-8 text-center">
-                <h2 class="text-white mt-0">We've got what you need!</h2>
-                <hr class="divider divider-light">
-                <p class="text-white-75 mb-4">Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
-                <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
-            </div>
-        </div>
-    </div>
-</section>
-<section class="page-section" id="services">
-  <div class="container px-4 px-lg-5">
-      <h2 class="text-center mt-0">At Your Service</h2>
-      <hr class="divider">
-      <div class="row gx-4 gx-lg-5">
-          <div class="col-lg-3 col-md-6 text-center">
-              <div class="mt-5">
-                  <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
-                  <h3 class="h4 mb-2">Sturdy Themes</h3>
-                  <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
-              </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-              <div class="mt-5">
-                  <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
-                  <h3 class="h4 mb-2">Up to Date</h3>
-                  <p class="text-muted mb-0">All dependencies are kept current to keep things fresh.</p>
-              </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-              <div class="mt-5">
-                  <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
-                  <h3 class="h4 mb-2">Ready to Publish</h3>
-                  <p class="text-muted mb-0">You can use this design as is, or you can make changes!</p>
-              </div>
-          </div>
-          <div class="col-lg-3 col-md-6 text-center">
-              <div class="mt-5">
-                  <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
-                  <h3 class="h4 mb-2">Made with Love</h3>
-                  <p class="text-muted mb-0">Is it really open source if it's not made with love?</p>
-              </div>
-          </div>
+    <!-- Template Main CSS File -->
+    <link href="assets/css/assets.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light fixed-top">
+      <a class="navbar-brand" href="#">CUY UNIVERSITY</a>
+      <div class="desktop-nav">
+        <ul class="navbar-nav nav-list">
+          <li class="nav-item m-2">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
       </div>
-  </div>
-</section>
-</body>
+      <div class="mobile-nav">
+        <ul class="navbar-mobile">
+          <li class="nav-item m-2">
+            <a class="nav-link" href="#"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item m-2">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="bg-primary">
+      <div class="container">
+        <h1 class="text-center">Ini Header Bro</h1>
+      </div>
+    </section>
+    <section class="bg-secondary">
+      <div class="container">
+        <h1 class="text-center">Ini Intro Bro broo</h1>
+      </div>
+    </section>
+    <!-- ======= Event Section ======= -->
+    <section class="pricing">
+      <div class="container">
+        <header class="section-header">
+          <p>Segera Pilih Kelasmu</p>
+        </header>
+
+        <ul class="card-list">
+          <li class="card-fit">
+            <div class="card-event">
+              <div class="card-header p-0 d-block overflow-hidden mb-2">
+                <img
+                  class="poster-event"
+                  src="assets/img/class/basic-class.jpg"
+                />
+              </div>
+              <div class="card-content p-3">
+                <div class="mb-0 font-weight-bold">
+                  FOKUS UTBK BATCH 1<br />Paket Basic Class
+                </div>
+                <div class="btn-sign mt-4">
+                  <a
+                    href="#"
+                    class="btn pointer btn-success d-block font-weight-bold"
+                    >Ikuti Sekarang</a
+                  >
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="card-fit">
+            <div class="card-event">
+              <div class="card-header p-0 d-block overflow-hidden mb-2">
+                <img
+                  class="poster-event"
+                  src="assets/img/class/mid-class.jpg"
+                />
+              </div>
+              <div class="card-content p-3">
+                <div class="mb-0 font-weight-bold">
+                  FOKUS UTBK BATCH 1<br />Paket Mid Class
+                </div>
+                <div class="btn-sign mt-4">
+                  <a
+                    href="#"
+                    class="btn pointer btn-success d-block font-weight-bold"
+                    >Ikuti Sekarang</a
+                  >
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="card-fit">
+            <div class="card-event">
+              <div class="card-header p-0 d-block overflow-hidden mb-2">
+                <img
+                  class="poster-event"
+                  src="assets/img/class/expert-class.jpg"
+                />
+              </div>
+              <div class="card-content p-3">
+                <div class="mb-0 font-weight-bold">
+                  FOKUS UTBK BATCH 1<br />Paket Expert Class
+                </div>
+                <div class="btn-sign mt-4">
+                  <a
+                    href="#"
+                    class="btn pointer btn-success d-block font-weight-bold"
+                    >Ikuti Sekarang</a
+                  >
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- End event Section -->
+    <!-- ======= Values Section ======= -->
+    <section class="values">
+      <div class="container">
+        <header class="section-header">
+          <p>Kenapa TentorSaintek cocok sebagai tempat kamu belajar?</p>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="box">
+              <img
+                src="assets/img/logo/Icon-Tentor.png"
+                class="img-fluid"
+                alt=""
+              />
+              <h5>Tentor Expert</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-4 mt-lg-0">
+            <div class="box">
+              <img
+                src="assets/img/logo/icon-diskusi.png"
+                class="img-fluid"
+                alt=""
+              />
+              <h5>Lebih private dan konsultasi 1 on 1</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-4 mt-lg-0">
+            <div class="box">
+              <img
+                src="assets/img/logo/services.png"
+                class="img-fluid mt-2"
+                alt=""
+              />
+              <h5>pelayanan ramah dan fokus pada masalah siswa</h5>
+            </div>
+          </div>
+
+          <div class="col-lg-3 mt-4 mt-lg-0">
+            <div class="box">
+              <img
+                src="assets/img/logo/Icon-Buku-Digital.png"
+                class="img-fluid mt-2"
+                alt=""
+              />
+              <h5>Modul dan latihan soal Lengkap</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Values Section -->
+    <!-- ======= Pricing Section ======= -->
+    <section class="pricing">
+      <div class="container">
+        <header class="section-header">
+          <p>Apa saja bidang yang dilayani TentorSaintek ?</p>
+        </header>
+
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="box">
+              <img
+                src="assets/img/logo-teknik/logo-ipa.png"
+                class="img-fluid mb-3"
+                alt=""
+              />
+              <div class="font-weight-bold mb-0" style="color: #07d5c0">
+                Bimbingan Ilmu Pengetahuan Alam
+              </div>
+              <p style="font-weight: 700; margin-bottom: 0">
+                (Fisika, Kimia, Matematika)
+              </p>
+              <p>Untuk Siswa SMP & SMA</p>
+            </div>
+          </div>
+
+          <div class="col-lg-6 col-md-6">
+            <div class="box">
+              <img
+                src="assets/img/logo-teknik/logo-teknik.png"
+                class="img-fluid mb-3"
+                alt=""
+                style="width: 8rem"
+              />
+              <div class="font-weight-bold mb-0" style="color: #65c600">
+                Bimbingan Mata Kuliah Teknik
+              </div>
+              <p style="font-weight: 700; margin-bottom: 0">
+                (Kalkulus, Mekanika, Thermodinamika, Pemrograman, dll)
+              </p>
+              <p>Untuk Mahasiswa</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Pricing Section -->
+    <section class="bg-info">
+      <div class="container">
+        <h1 class="text-center">Ini Dokumentasi</h1>
+      </div>
+    </section>
+    <section class="bg-dark">
+      <div class="container">
+        <h1 class="text-center">Ini Footer</h1>
+      </div>
+    </section>
+    <section class="page-section bg-primary" id="about">
+      <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-8 text-center">
+            <h2 class="text-white mt-0">We've got what you need!</h2>
+            <hr class="divider divider-light" />
+            <p class="text-white-75 mb-4">
+              Start Bootstrap has everything you need to get your new website up
+              and running in no time! Choose one of our open source, free to
+              download, and easy to use themes! No strings attached!
+            </p>
+            <a class="btn btn-light btn-xl" href="#services">Get Started!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="page-section" id="services">
+      <div class="container px-4 px-lg-5">
+        <h2 class="text-center mt-0">At Your Service</h2>
+        <hr class="divider" />
+        <div class="row gx-4 gx-lg-5">
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+              <h3 class="h4 mb-2">Sturdy Themes</h3>
+              <p class="text-muted mb-0">
+                Our themes are updated regularly to keep them bug free!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <div class="mb-2">
+                <i class="bi-laptop fs-1 text-primary"></i>
+              </div>
+              <h3 class="h4 mb-2">Up to Date</h3>
+              <p class="text-muted mb-0">
+                All dependencies are kept current to keep things fresh.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <div class="mb-2"><i class="bi-globe fs-1 text-primary"></i></div>
+              <h3 class="h4 mb-2">Ready to Publish</h3>
+              <p class="text-muted mb-0">
+                You can use this design as is, or you can make changes!
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 text-center">
+            <div class="mt-5">
+              <div class="mb-2"><i class="bi-heart fs-1 text-primary"></i></div>
+              <h3 class="h4 mb-2">Made with Love</h3>
+              <p class="text-muted mb-0">
+                Is it really open source if it's not made with love?
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,18 +1,134 @@
-
 /* General */
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin: 0;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff
+  background-color: #fff;
 }
 
 section {
   padding: 100px 0;
+}
+
+/* --------------------------------
+section pricing1 -ozilpr
+-------------------------------- */
+.section-header {
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.section-header p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 38px;
+  line-height: 42px;
+  font-weight: 700;
+  color: #012970;
+}
+
+.card-list {
+  width: 100%;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-fit {
+  padding: 15px;
+  object-fit: fill;
+  width: 30%;
+  margin: 0 auto;
+  min-width: 333px;
+  box-sizing: unset;
+}
+
+.poster-event {
+  width: 100%;
+  min-height: 333px;
+  position: relative;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: 50% center;
+  background-repeat: no-repeat;
+}
+
+.card-content {
+  text-align: center;
+  cursor: default;
+}
+.card-event {
+  transition: all 0.4s ease-in-out;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.card-event .card-header {
+  border-radius: 15px;
+}
+.card-event:hover {
+  transform: scale(1.05);
+}
+.pricing .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+/* --------------------------------
+section valurs -ozilpr
+-------------------------------- */
+.values .box {
+  padding: 10px;
+  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  text-align: center;
+  transition: 0.3s;
+  height: 100%;
+}
+
+.values .box img {
+  padding: 30px 50px;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.values .box h5 {
+  font-size: 16px;
+  color: #012970;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.values .box:hover {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.values .box:hover img {
+  transform: scale(1);
+}
+
+/* --------------------------------
+section pricing2 -ozilpr
+-------------------------------- */
+.pricing .box {
+  padding: 40px 20px;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  transition: 1s;
+}
+
+.pricing .box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
 }
 
 .nav-list {
@@ -36,7 +152,7 @@ section {
   list-style: none;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .desktop-nav {
     display: none;
   }
